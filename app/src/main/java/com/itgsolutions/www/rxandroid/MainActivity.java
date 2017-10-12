@@ -40,20 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView img_holder = findViewById(R.id.img_holder);
 
-//        Glide.with(this).load(R.mipmap.ic_launcher)
-//                .asBitmap()
-//                .centerCrop()
-//                .diskCacheStrategy(DiskCacheStrategy.ALL)
-//                .into(img_holder);
-
-
-//        Glide.with(this)
-//                .load(R.mipmap.ic_launcher)
-//                .fitCenter()
-//                .placeholder(R.drawable.details_placeholder)
-//                .diskCacheStrategy(DiskCacheStrategy.ALL)
-//                .into(holder.image);
-
+        Log.e(TAG, "Mostafa Hassan Yousif");
 
         Glide.with(MainActivity.this).load("http://you-ps.ru/uploads/posts/2013-08/1376601606_1273.png")
                 .apply(RequestOptions
