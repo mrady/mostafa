@@ -40,7 +40,12 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView img_holder = findViewById(R.id.img_holder);
 
-        Log.e(TAG, "Mostafa Hassan Yousif");
+        Log.e(TAG, "DEV Update Test");
+        Log.e(TAG, "DEV Update Test");
+        Log.e(TAG, "DEV Update Test");
+        Log.e(TAG, "DEV Update Test");
+        Log.e(TAG, "DEV Update Test");
+        Log.e(TAG, "DEV Update Test");
 
         Glide.with(MainActivity.this).load("http://you-ps.ru/uploads/posts/2013-08/1376601606_1273.png")
                 .apply(RequestOptions
